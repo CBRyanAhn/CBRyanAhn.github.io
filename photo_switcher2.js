@@ -8,7 +8,7 @@ var theImages = new Array() // do not change this
 // theImages[0] = 'jhchoi34.jpg' // 'jhchoi.jpg'
 // theImages[0] = 'jhchoi33.jpg' // 'jhchoi.jpg'
 // theImages[0] = 'jhchoi2020-1.jpg'
-theImages[0] = 'CB_photo1'
+theImages[0] = 'my_photos/CB_photo1'
 //theImages[1] = 'jhchoi.jpg'
 //theImages[2] = 'jhchoi_23.jpg'
 //theImages[3] = 'jhchoi_24.jpg'
@@ -27,7 +27,7 @@ var whichImage = Math.round(Math.random()*(p-1));
 
 function showImage(){
     var mainImgObj = document.querySelector("#mainImg");
-    mainImgObj.src = 'my_photos/' + theImages[whichImage];
+    mainImgObj.src = 'my_photos/CB_photo1' + theImages[whichImage];
     // document.write('<img src="'+theImages[whichImage]+'" class="right" border="1" width="200" height="200" vspace="0">');
 }
 
