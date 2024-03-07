@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>
-Jonghyun Choi @ ECE UMD
+Changbum Ryan Ahn @ ECE UMD
 </title>
 <LINK media = all href="../default2.css" type = text/css rel=StyleSheet>
 <!--STYLE type=text/css media=all>img{
