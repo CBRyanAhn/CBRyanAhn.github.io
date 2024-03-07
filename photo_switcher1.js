@@ -1,5 +1,5 @@
 var ImgPath='./'; 
-var ImgAry=new Array('jhchoi_1.jpg','jhchoi_2.jpg','jhchoi_3.jpg','jhchoi_4.jpg'); 
+var ImgAry=new Array('CB_photo1.jpg'); 
 var RandomNu; 
 var ImgCnt=1; 
 
