@@ -1,0 +1,164 @@
+<div id="container" style="margin-top: 1em;">
+  <h2>Publications&nbsp;
+    <!--<a href="javascript:;" class="filter selected-filter filterclicked" data-tag="selected">Selected & Recent</a>&nbsp;
+    <a href="javascript:;" class="filter all-filter" data-tag="all">All</a>
+    <br />-->
+</h2>
+
+  <table style="width: 98%" border="0" cellspacing="0">
+
+    <!-- <font style="color:rgb(111, 111, 111) ; font-weight: 400;">(To appear)</font> -->
+
+    <tr class="project-entry all">
+    <td id="pub">
+    <h3>Preprints</h3>
+    </td></tr>
+
+    <tr class="project-entry all selected">
+      <td class="pub_entry" id="pub" bgcolor=#ffffff>
+      <h4>Tuning Large Multimodal Models for Videos using Reinforcement Learning from AI Feedback</h4>
+      <h5>Daechul Ahn, Yura Choi, Youngjae Yu, Dongyeop Kang, <b>Jonghyun Choi</b></h5>
+      <h6>arXiv 2402</h6> 
+      <a href="https://arxiv.org/pdf/2402.03746.pdf" target="_blank">PDF </a> &middot;
+      <!-- <a href="https://openaccess.thecvf.com/content/ICCV2023/supplemental/Kim_Context-Aware_Planning_and_ICCV_2023_supplemental.zip" target="_blank">Supp </a> &middot; -->
+      <!-- <a href="https://bhkim94.github.io/projects/CL-ALFRED/" class="card-link" target="_new">Project Page </a> &middot; -->
+      <!-- <a href="https://github.com/yonseivnl/sdp" target="_blank">Code </a> &middot; -->
+      <a href="javascript:toggleHide('bibArxiv24-itv')">BibTeX </a>
+      <pre id="bibArxiv24-itv" class="bibtex" style="display:none">
+@inproceedings{ahnCYKC24,
+author    = {Daechul Ahn and Yura Choi and Youngjae Yu and Dongyeop Kang and Jonghyun Choi}
+title     = {Tuning Large Multimodal Models for Videos using Reinforcement Learning from AI Feedback}
+booktitle = {Arxiv}, 
+year      = {2024}
+}
+        </pre>
+        </td>
+    </tr>
+
+    <tr class="project-entry all">
+      <td id="pub">
+      <h3>2024</h3>
+    </td></tr>
+
+    <tr class="project-entry all selected">
+      <td class="pub_entry" id="pub" bgcolor=#ffffff>
+      <h4>Learning Equi-angular Representations for Online Continual Learning</h4>
+      <h5>Minhyuk Seo, Hyunseo Koh, Wonje Jeung, Min Jae Lee, San Kim, Hankook Lee, Sungjun Cho, Sungik Choi, Hyunwoo Kim, <b>Jonghyun Choi</b></h5>
+      <h6>CVPR 2024 <font style="color:rgb(111, 111, 111) ; font-weight: 400;">(To appear)</font></h6> 
+      PDF (coming soon) &middot
+      <!-- <a href="https://openreview.net/pdf?id=Qzwk5eFExe" target="_blank">PDF </a> &middot; -->
+      <!-- <a href="https://openaccess.thecvf.com/content/ICCV2023/supplemental/Kim_Context-Aware_Planning_and_ICCV_2023_supplemental.zip" target="_blank">Supp </a> &middot; -->
+      <!-- <a href="https://bhkim94.github.io/projects/CL-ALFRED/" class="card-link" target="_new">Project Page </a> &middot; -->
+      <!-- <a href="https://github.com/yonseivnl/sdp" target="_blank">Code </a> &middot; -->
+      <a href="javascript:toggleHide('bibCVPR24')">BibTeX </a>
+      <pre id="bibCVPR24" class="bibtex" style="display:none">
+@inproceedings{seoKJLKLCCKC24,
+author    = {Minhyuk Seo and Hyunseo Koh and Wonje Jeung and Min Jae Lee and San Kim and Hankook Lee and Sungjun Cho and Sungik Choi and Hyunwoo Kim and Jonghyun Choi}
+title     = {Learning Equi-angular Representations for Online Continual Learning}
+booktitle = {CVPR}, 
+year      = {2024}
+}
+        </pre>
+        </td>
+    </tr>
+  <!-- arXiv Preprint -->
+  <!-- <tr class="project-entry all">
+  <td id="pub" colspan="2">
+  <h3 style="margin-top: 0px;">Old arXiv Preprints</h3>
+  </td></tr> -->
+  
+  <!--
+    <tr>
+    <td>
+    <img src="./paper/arxiv2018_obfus.jpg" width=100 height=100>
+    </td>
+    <td class="pub_entry" id="pub" bgcolor=#ffffff> 
+    <h4>Training with the Invisibles: Obfuscating Images to Share Safely for Learning Visual Recognition Models</h4>
+    Tae-hoon Kim, Dongmin Kang, Kari Pulli, <b>Jonghyun Choi</b><br>
+    arXiv Preprint<br>
+    <a href="https://arxiv.org/pdf/1901.00098" target="_blank">PDF </a> &middot;
+    <a href="javascript:toggleHide('bibArxiv19_obfus')">BibTeX </a>
+    <pre id="bibArxiv19_obfus" class="bibtex" style="display:none">
+    @article{kimDKC19,
+      author    = {Tae-hoon Kim, Dongmin Kang, Kari Pulli, Jonghyun Choi}
+      title     = {Training with the Invisibles: Obfuscating Images to Share Safely for Learning Visual Recognition Models}
+      journal   = {arXiv}, 
+      year      = {2019}
+    }
+    </pre>
+    </td>
+    </tr>
+  -->
+        
+</table>
+
+<script src="colorize_pub.js"></script>
+<!-- <script>
+  $(document).ready(function() {
+
+      //init DateTimePickers
+      materialKit.initFormExtendedDatetimepickers();
+
+      // // Sliders Init
+      // materialKit.initSliders();
+
+      includeHTML();
+  });
+</script> -->
+<script type="text/javascript">
+$(document).ready(function(){
+   // assign tags
+   $(".project-entry").each(function(){
+       var classList = $(this).attr("class").split(/\s+/);
+       classList.splice( $.inArray("project-entry", classList), 1 );
+       //$(this).find(".tags").html("<strong>Tags: </strong>" + classList.join(" "));
+   });
+
+   // enable filtering of the projects
+   $(".filter").click(function(){
+      console.log(event.srcElement.id);
+      if(typeof event.srcElement.id !== 'undefined') {
+        $(".filter").removeClass('filterclicked');
+      }
+      $(event.target).addClass('filterclicked');
+      $(".project-entry").show();
+      // $(".project-entry").classList.add("now");
+
+      var selectedFilter = $(this).attr("data-tag");
+      console.log(selectedFilter);
+      if (selectedFilter != "all")
+          $(".project-entry:not(." + selectedFilter + ")").hide();
+          // console.log($(".project-entry:not(." + selectedFilter + ")"));
+          // $(".project-entry:not(." + selectedFilter + ")").addClass("now");
+      $(".project-count").text($(".project-entry:visible").length);          
+                 
+      // var all = document.querySelectorAll('td.pub_entry.now');
+      // for (let i = 0; i < all.length; i += 2) {
+      //     all[i].bgColor = '#f0f0f0';
+      // }       
+   });
+
+   $(".selected-filter").click();
+});
+</script>    
+<script>
+  (function(f,b){
+      var c;
+      f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+      f._hjSettings={hjid:12984, hjsv:3};
+      c=b.createElement("script");c.async=1;
+      c.src="//static.hotjar.com/c/hotjar-12984.js?sv=3";
+      b.getElementsByTagName("head")[0].appendChild(c);
+  })(window,document);
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1145660-2', 'auto');
+ga('require', 'displayfeatures');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+</script>
