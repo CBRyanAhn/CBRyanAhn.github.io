@@ -5,6 +5,7 @@ $.ajaxSetup ({
 
 $(function(){
     $("#includedContentTop").load("top.html", 'f' + (Math.random()*1000000));
+    $("#includedContentEdu").load("edu.html", 'f' + (Math.random()*1000000));
     $("#includedContentNews").load("news.html", 'f' + (Math.random()*1000000));
     $("#includedContentInternship").load("internship.html", 'f' + (Math.random()*1000000));
     $("#includedContentPub").load("pub.html", 'f' + (Math.random()*1000000));
