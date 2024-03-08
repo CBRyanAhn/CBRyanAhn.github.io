@@ -1,18 +1,9 @@
-
 // Set up the image files to be used.
+
 var theImages = new Array() // do not change this
 // To add more image files, continue with the
 // pattern below, adding to the array.
-
-// theImages[0] = 'jhchoi_22.jpg' // 'jhchoi.jpg'
-// theImages[0] = 'jhchoi34.jpg' // 'jhchoi.jpg'
-// theImages[0] = 'jhchoi33.jpg' // 'jhchoi.jpg'
-// theImages[0] = 'jhchoi2020-1.jpg'
 theImages[0] = 'CB_photo1.jpg'
-//theImages[1] = 'jhchoi.jpg'
-//theImages[2] = 'jhchoi_23.jpg'
-//theImages[3] = 'jhchoi_24.jpg'
-//theImages[4] = 'jhchoi_6.jpg'
 
 // do not edit anything below this line
 
