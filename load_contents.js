@@ -1,3 +1,4 @@
+//홈페이지 로딩
 $.ajaxSetup ({
     // Disable caching of AJAX responses
     cache: false
@@ -14,3 +15,4 @@ $(function(){
     $("#includedContentAdvising").load("advising.html", 'f' + (Math.random()*1000000));
     $("#includedContentFooter").load("footer.html", 'f' + (Math.random()*1000000));
 });
+
