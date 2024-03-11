@@ -437,10 +437,10 @@ text-align:center;
   margin: 5px 0px;
   padding: 0px;
   font-weight: 400;
-  background: inherit;
+  background: rgb(231, 230, 230);
 }
 
-
+  
 #pub h4{ /* paper title */
 	margin: 0px 0px 5px 0px;
   font-size: 16px;
