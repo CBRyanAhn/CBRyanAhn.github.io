@@ -437,7 +437,7 @@ text-align:center;
   /* border-bottom: 1px solid black; */
   font-weight: 400;
   color:#5e5e5e;
-  background-color:inherit;
+  background: rgba(243, 243, 243, 0.841); 
 }
 
 #pub h4{ /* paper title */
