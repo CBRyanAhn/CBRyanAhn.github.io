@@ -9,7 +9,7 @@ $(function(){
     $("#includedContentCS").load("currentservices.html", 'f' + (Math.random()*1000000));
     $("#includedContentPub").load("pub.html", 'f' + (Math.random()*1000000));
     $("#includedContentServices").load("services.html", 'f' + (Math.random()*1000000));
-    $("#includedContentAwards").load("supervised.html", 'f' + (Math.random()*1000000));
+    $("#includedContentSupervised").load("supervised.html", 'f' + (Math.random()*1000000));
     $("#includedContentTeaching").load("teaching.html", 'f' + (Math.random()*1000000));
     $("#includedContentAdvising").load("advising.html", 'f' + (Math.random()*1000000));
     $("#includedContentFooter").load("footer.html", 'f' + (Math.random()*1000000));
