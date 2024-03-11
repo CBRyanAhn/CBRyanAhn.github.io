@@ -434,11 +434,11 @@ text-align:center;
   font-family: 'Roboto';  
   font-size: 16px;
   margin: 5px 0px 5px 0px;
-  padding: 0px 0px 0px 0px;
   /* border-bottom: 1px solid black; */
   font-weight: 400;
   color:#5e5e5e;
   background: rgba(243, 243, 243, 0.841); 
+  padding: 0px 5px 0px 5px;
 }
 
 #pub h4{ /* paper title */
