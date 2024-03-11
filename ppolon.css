@@ -233,6 +233,7 @@ font-size: 13.5px;
     padding-bottom: 1px;
 	padding-left: 1px;
 	line-height: 130%;
+  list-style-type: disc; 
 }
 
 #container ol{
