@@ -443,7 +443,7 @@ text-align:center;
   
 #pub h4{ /* paper title */
 	margin: 0px 0px 5px 0px;
-  font-size: 13px;
+  font-size: 14px;
 	font-weight: 600;
 	color:black;
   background-color:inherit;
@@ -452,7 +452,7 @@ text-align:center;
 #pub h5{ /* authors */ 
   margin: 5px 0px 5px 1px;
   font-family: 'Roboto';
-  font-size: 12px;
+  font-size: 13px;
 	font-weight: 300;
 	color:rgb(111, 111, 111);
   letter-spacing:0px;
