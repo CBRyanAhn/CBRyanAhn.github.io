@@ -465,12 +465,8 @@ text-align:center;
 }
 
 #pub h5 c{ /* venue */ 
-	margin: 5px 0px 5px 0px;
-  font-size: 13px;
 	font-weight: 600;
 	color:rgb(147, 44, 44);
-  letter-spacing:0px;
-  background-color:inherit;
 }
 
 /**************** Footer styles ****************/
