@@ -236,6 +236,12 @@ font-size: 13.5px;
   list-style-type: disc; 
 }
 
+#container li a{
+  font-weight: 400;
+  color:hsl(0, 0%, 50%);
+
+}
+rgb(116, 116, 116)
 #container ol{
     font-size:13.5px;
     letter-spacing:0px;
