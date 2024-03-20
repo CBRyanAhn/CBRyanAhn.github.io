@@ -237,10 +237,10 @@ font-size: 13.5px;
 
 #container li c{
   font-size:13px;
-  margin: 0px 0px 0px 10px;
   font-weight: 400;
   color:hsl(0, 0%, 50%);
   display: block;
+  padding-left: 2em;
 
 }
 
