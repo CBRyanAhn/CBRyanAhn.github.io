@@ -183,6 +183,13 @@ font-size: 13.5px;
   border-top: solid 1px #ebebeb;
 }
 
+#container h2 c{
+  font-size:13px;
+  font-weight: 600;
+  letter-spacing:0px;
+  color:#808080;
+}
+
 
 
 #container h3{
