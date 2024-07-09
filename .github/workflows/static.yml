@@ -22,7 +22,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        run: git clone ${{ github.repository_url }} . && git fetch --all
+        run: |
+          git init
+          git remote add origin https://github.com/${{ github.repository }}
+          git fetch
+          git checkout master
 
       # actions/configure-pages@v5 기능 생략
 
@@ -30,6 +34,8 @@ jobs:
         run: echo "Upload artifact step"
 
       - name: Deploy to GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
