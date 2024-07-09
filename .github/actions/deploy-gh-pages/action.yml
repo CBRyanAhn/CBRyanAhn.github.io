@@ -1,7 +1,0 @@
-name: 'deploy-gh-pages'
-description: 'Deploy to GitHub Pages'
-runs:
-  using: 'composite'
-  steps:
-    - run: ./deploy-gh-pages.sh
-      shell: bash

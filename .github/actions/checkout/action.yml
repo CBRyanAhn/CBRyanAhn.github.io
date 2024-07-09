@@ -1,7 +1,0 @@
-name: 'checkout'
-description: 'Checkout repository'
-runs:
-  using: 'composite'
-  steps:
-    - run: ./checkout.sh
-      shell: bash

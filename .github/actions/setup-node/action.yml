@@ -1,7 +1,0 @@
-name: 'setup-node'
-description: 'Setup Node.js'
-runs:
-  using: 'composite'
-  steps:
-    - run: ./setup-node.sh
-      shell: bash
