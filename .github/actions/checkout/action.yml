@@ -1,0 +1,9 @@
+name: 'checkout'
+description: 'Checkout repository'
+runs:
+  using: 'docker'
+  image: 'alpine:latest'
+  entrypoint: '/bin/sh'
+  args:
+    - '-c'
+    - '/github/workspace/.github/actions/checkout/checkout.sh'

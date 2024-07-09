@@ -11,21 +11,16 @@ jobs:
 
     steps:
     - name: Checkout the repository
-      uses: actions/checkout@v2
+      uses: ./github/actions/checkout
 
     - name: Setup Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14'
-
-    - name: Install dependencies
-      run: npm install
+      uses: ./github/actions/setup-node
 
     - name: Build the project
       run: npm run build
 
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: ./github/actions/deploy-gh-pages
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./  # 배포할 디렉토리 (루트 디렉토리)
+        publish_dir: ./public  # 배포할 디렉토리
