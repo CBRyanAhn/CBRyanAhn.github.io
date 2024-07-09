@@ -1,9 +1,7 @@
 name: 'deploy-gh-pages'
 description: 'Deploy to GitHub Pages'
 runs:
-  using: 'docker'
-  image: 'alpine:latest'
-  entrypoint: '/bin/sh'
-  args:
-    - '-c'
-    - '/github/workspace/.github/actions/deploy-gh-pages/deploy-gh-pages.sh'
+  using: 'composite'
+  steps:
+    - run: ./deploy-gh-pages.sh
+      shell: bash

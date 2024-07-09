@@ -1,9 +1,7 @@
 name: 'setup-node'
 description: 'Setup Node.js'
 runs:
-  using: 'docker'
-  image: 'alpine:latest'
-  entrypoint: '/bin/sh'
-  args:
-    - '-c'
-    - '/github/workspace/.github/actions/setup-node/setup-node.sh'
+  using: 'composite'
+  steps:
+    - run: ./setup-node.sh
+      shell: bash
